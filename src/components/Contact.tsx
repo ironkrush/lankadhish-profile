@@ -229,6 +229,37 @@ const Contact = () => {
               </Card>
             ))}
           </div>
+          <div className="text-center mt-8">
+            <Card className="p-6 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5 border-primary/20 max-w-md mx-auto">
+              <div className="flex items-center justify-center mb-4">
+                <Star className="h-6 w-6 text-yellow-400 fill-current mr-2" />
+                <h4 className="text-lg font-semibold text-foreground">Share Your Experience</h4>
+              </div>
+              <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
+                Help others discover our reliable service by sharing your experience on Google Maps.
+              </p>
+              <a
+                href="https://maps.app.goo.gl/p9o6A6Ys2X6xo6Lu8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full"
+                aria-label="Write a review for Lankadhish Cab Service on Google Maps"
+              >
+                <Button
+                  size="lg"
+                  className="w-full bg-gradient-to-r from-primary to-primary-glow hover:shadow-[var(--shadow-primary)] transform hover:scale-105 transition-all duration-300 group"
+                  aria-describedby="review-button-description"
+                >
+                  <Star className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
+                  Write a Review on Google
+                  <span className="sr-only">Opens in new tab</span>
+                </Button>
+              </a>
+              <p id="review-button-description" className="sr-only">
+                This will open Google Maps in a new tab where you can write a review for Lankadhish Cab Service
+              </p>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
