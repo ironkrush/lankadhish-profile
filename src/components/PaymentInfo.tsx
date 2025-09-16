@@ -114,7 +114,7 @@ const PaymentInfo = () => {
         </div>
 
         {/* GST Information */}
-        <Card className="mt-12 p-6 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5 border-primary/20 text-center max-w-2xl mx-auto">
+{/*         <Card className="mt-12 p-6 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5 border-primary/20 text-center max-w-2xl mx-auto">
           <h3 className="text-xl font-bold mb-2 text-foreground">GST Registered Business</h3>
           <p className="text-muted-foreground mb-4">
             We are a GST registered business. GST invoice available on request.
@@ -122,7 +122,7 @@ const PaymentInfo = () => {
           <div className="text-sm text-muted-foreground">
             Contact us for GST invoice and business receipts
           </div>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );
